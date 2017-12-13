@@ -32,6 +32,9 @@ body {
 
 header {
 	width: 100%;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
 }
 
 .header-container {
@@ -75,9 +78,62 @@ header {
 	color: black;
 }
 
-/* Learn something new everyday */
+/* Banner */
 
+.banner-container {
+	background-color: lightgrey;
+	padding-top: 64px;
+	display: flex;
+}
 
+.banner-content {
+	display: flex;
+	margin: 32px 0 32px 24px;
+	width: 100%;
+}
+
+.banner-img {
+	width: 60%;
+}
+
+.banner-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.banner-text-container {
+	margin-left: 24px;
+	display: flex;
+	width: 40%;
+	align-items: center;
+}
+
+.banner-text-content {
+	color: #3b3c3d;
+	width: 100%;
+    font-size: 24px;
+}
+
+.banner-text h1 {
+	width: 53%;
+}
+
+.banner-text p {
+	width: 53%;
+}
+
+.banner-button {
+	background-color: #3b3c3d;
+	padding: 8px 0;
+	display: flex;
+	justify-content: center;
+	width: 53%;
+}
+
+.banner-button a{
+	text-decoration: none;
+	color: white;
+}
 
 /* News */
 /* It doesn't hurt to keep practicing */
