@@ -20,6 +20,7 @@
 
 html {
 	font-family: 'Helvetica', sans-serif;
+	color: #3b3c3d;
 }
 
 /* Body margin reset */
@@ -108,17 +109,16 @@ header {
 }
 
 .banner-text-content {
-	color: #3b3c3d;
 	width: 100%;
     font-size: 24px;
 }
 
 .banner-text h1 {
-	width: 53%;
+	width: 79%;
 }
 
 .banner-text p {
-	width: 53%;
+	width: 79%;
 }
 
 .banner-button {
@@ -126,7 +126,7 @@ header {
 	padding: 8px 0;
 	display: flex;
 	justify-content: center;
-	width: 53%;
+	width: 79%;
 }
 
 .banner-button a{
@@ -140,7 +140,7 @@ header {
 	display: flex;
 }
 
-/* Info main */
+/* Main Information */
 
 .information-main-container {
 	width: 60%;
@@ -158,9 +158,22 @@ header {
 
 .information-main-text h1 {
 	margin-top: 0;
+	margin-bottom: 24px;
 }
 
-/* Minor infos */
+.information-main-text p {
+	margin-bottom: 0;
+	padding-bottom: 24px;
+}
+
+.information-main-text .reference {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 24px;
+}
+
+/* Side Informantion */
 
 .information-side {
 	width: 40%;
@@ -189,18 +202,28 @@ header {
 	padding-top: 16px;
 }
 
+.information-text-container {
+	width: 65%;
+}
+
+.information-text {
+	padding-left: 16px;
+}
+
+.information-text h2 {
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.information-text p {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 .information-guest {
 	padding-top: 16px;
 	background-color: lightgrey;
 }
-
-.side-text {
-	width: 65%;
-}
-
-/* Info guest */
-
-
 
 /* Start learning */
 
