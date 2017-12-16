@@ -227,6 +227,52 @@ header {
 
 /* Start learning */
 
+.course-container {
+	background-color: lightgrey;
+}
+
+.course-container h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.course-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 32px 72px 0 72px;
+}
+
+.course {
+	background-color: white;
+	width: 30%;
+	margin-right: 32px;
+	margin-bottom: 32px;
+}
+
+.course-img {
+	height: auto;
+}
+
+.course-img img {
+	height: auto;
+	width: 100%;
+}
+
+.course-text {
+	padding-left: 16px;
+}
+
+.course-text h2 {
+	margin-top: 12px;
+}
+
+.course-text p:nth-child(2n + 1) {
+	margin-bottom: 24px;
+}
 
 
 /* Thesis Exhibit*/
