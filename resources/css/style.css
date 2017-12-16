@@ -21,6 +21,7 @@
 html {
 	font-family: 'Helvetica', sans-serif;
 	color: #3b3c3d;
+	background-color: #ededed;
 }
 
 /* Body margin reset */
@@ -136,37 +137,37 @@ header {
 
 /* Information */
 
-.information-container {
+.exhibit-container {
 	display: flex;
 }
 
 /* Main Information */
 
-.information-main-container {
+.exhibit-main-container {
 	width: 60%;
 	padding: 32px 24px 32px 24px;
 }
 
-.information-main-img {
+.exhibit-main-img {
 	margin-bottom: 32px;
 }
 
-.information-main-img img {
+.exhibit-main-img img {
 	width: 100%;
 	margin-bottom: -4px
 }
 
-.information-main-text h1 {
+.exhibit-main-text h1 {
 	margin-top: 0;
 	margin-bottom: 24px;
 }
 
-.information-main-text p {
+.exhibit-main-text p {
 	margin-bottom: 0;
 	padding-bottom: 24px;
 }
 
-.information-main-text .reference {
+.exhibit-main-text .reference {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -175,7 +176,7 @@ header {
 
 /* Side Informantion */
 
-.information-side {
+.exhibit-side {
 	width: 40%;
 	padding-top: 32px;
 	border-left: 1px solid lightgrey;
@@ -198,29 +199,33 @@ header {
 	width: 100%;
 }
 
-.information-campus {
+.exhibit-campus {
 	padding-top: 16px;
 }
 
-.information-text-container {
+.exhibit-text-container {
 	width: 65%;
 }
 
-.information-text {
+.exhibit-text {
 	padding-left: 16px;
 }
 
-.information-text h2 {
+.exhibit-text h2 {
 	margin-top: 0;
 	margin-bottom: 8px;
 }
 
-.information-text p {
+.exhibit-text p {
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
 
-.information-guest {
+.exhibit-text .read-more a{
+	text-decoration: none;
+}
+
+.exhibit-guest {
 	padding-top: 16px;
 	background-color: lightgrey;
 }
@@ -276,12 +281,49 @@ header {
 
 
 /* Thesis Exhibit*/
+
+.thesis-title {
+	display: flex;
+	justify-content: center;
+	margin: 32px 0 0 0;
+}
+
 /* Reimagine urban */
 
+.exhibit-main-video {
+	margin-bottom: 32px;
+}
 
+.exhibit-main-video video {
+	width: 100%;
+	margin-bottom: -4px
+}
+
+.thesis-main-text h1 {
+	margin-bottom: 8px;
+}
+
+.thesis-main-text p {
+	margin-top: 0;
+	padding-bottom: 0;
+}
 
 /* Minor thesis */
 
+.thesis-side {
+	border-left: none;
+}
 
+.exhibit-fisma {
+	padding-top: 16px;
+	background-color: lightgrey;
+	border-bottom: none;
+}
+
+.exhibit-now-then {
+	padding-top: 16px;
+	border-bottom: none;
+}
 
 /* Footer */
+
