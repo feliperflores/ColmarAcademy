@@ -327,3 +327,20 @@ header {
 
 /* Footer */
 
+footer {
+    border-top: 1px solid lightgrey;
+    height: 64px;
+}
+
+.footer-content {
+	display: flex;
+    margin: 16px 24px 0 24px;
+}
+
+.copyright {
+	flex-grow: 1;
+}
+
+.legal:first-child {
+	margin-right: 16px;
+}
