@@ -71,6 +71,10 @@ header {
 	font-weight: bold;
 }
 
+.header-container .mobile {
+	display: none;
+}
+
 .header-container .links-container .link {
 	padding: 0 0 0 16px;
 }
@@ -348,4 +352,104 @@ footer {
 .legal a {
 	text-decoration: none;
 	color: #3b3c3d;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 670px){
+	/* Header */
+
+	.header-container .logo {
+		display: none;
+	}
+
+	.header-container .logo-img {
+		display: none;
+	}
+
+	.header-container .desktop {
+		display: none;
+	}
+
+	.header-container .mobile {
+		display: inline-block;
+	}
+
+	img.mobile-img {
+		height: 35px;
+	}
+
+	.header-container .links-container {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.header-container .links-container .link {
+		padding: 0;
+		margin: 0;
+	}
+
+	/* Banner */
+
+	.banner-content {
+		display: block;
+		margin: 0;
+	}
+
+	.banner-img {
+		width: 100%;
+	}
+
+	.banner-text-container {
+		margin: 0;
+		padding-top: 32px;
+		padding-bottom: 32px;
+		width: 100%;
+	}
+
+	.banner-text {
+		margin-left: 16px;
+	}
+
+	.banner-text h1 {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 32px;
+	}
+
+	.banner-text p {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 24px;
+	}
+
+	.banner-button-container {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+
+	.banner-button {
+		width: 100%;
+		background-color: #929292;
+	}
+
+	/* Information */
+
+	.information .exhibit-main-container {
+		display: none;
+	}
+
+	.information .exhibit-side {
+		width: 100%;
+		padding-top: 16px;
+		border: 0;
+	}
+
+	/* Start learning */
+
+	/* Thesis Exhibit*/
+
+	/* Footer */
 }
