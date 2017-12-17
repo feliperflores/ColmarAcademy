@@ -199,8 +199,12 @@ header {
 	width: 35%;
 }
 
-.side-img img {
+.side-img .desktop-exhibit-img {
 	width: 100%;
+}
+
+.mobile-exhibit-img {
+	display: none;
 }
 
 .exhibit-campus {
@@ -225,8 +229,9 @@ header {
 	margin-bottom: 8px;
 }
 
-.exhibit-text .read-more a{
+.exhibit-text .read-more a {
 	text-decoration: none;
+	color: #3178ff;
 }
 
 .exhibit-guest {
@@ -437,19 +442,130 @@ footer {
 
 	/* Information */
 
-	.information .exhibit-main-container {
+	.information .exhibit-mobile-main-container {
 		display: none;
 	}
 
-	.information .exhibit-side {
+	.information .exhibit-mobile {
 		width: 100%;
 		padding-top: 16px;
 		border: 0;
 	}
 
+	.side-img .desktop-exhibit-img {
+		display: none;
+	}
+
+	.mobile-exhibit-img {
+		display: flex;
+		width: 100%;
+	}
+
+	.exhibit-mobile .side-mobile {
+		padding-right: 16px;
+	}
+
+	.side-mobile {
+		display: block;
+		border: 0;
+	}
+
+	.side-mobile .side-img {
+		width: 100%;
+	}
+
+	.side-mobile .exhibit-text-container {
+		width: 100%;
+	}
+
+	.exhibit-campus {
+		padding-top: 64px;
+	}
+
+	.exhibit-guest {
+		background-color: initial;
+		padding-top: 64px;
+		padding-bottom: 32px;
+		border-bottom: 1px solid lightgrey;
+	}
+
 	/* Start learning */
+
+	.course-container {
+		background-color: inherit;
+		border-bottom: 1px solid lightgrey;
+	}
+
+	.course-container .course-title h1{
+		font-size: 48px;
+	}
+
+	.course-content {
+		padding: 16px 16px 32px 16px;
+		display: flex;
+	}
+
+	.course {
+		width: 95%;
+		background-color: lightgrey;
+		padding: 16px;
+		margin-right: 0;
+		margin-bottom: 8px;
+	}
+
+	.course-img {
+		display: none;
+	}
+
+	.course-text {
+		padding-left: 0;
+	}
+
+	.course-text p {
+		display: none;
+	}
+
+	.course-text h2 {
+		margin: 0;
+	}
 
 	/* Thesis Exhibit*/
 
+	.thesis-title {
+		font-size: 48px;
+	}
+
+	.thesis-side {
+		display: none;
+	}
+
+	.exhibit-main-container {
+		width: 100%;
+		padding: 16px 0px 24px;
+	}
+
+	.exhibit-main-container .exhibit-main-text-container {
+		display: none;
+	}
+
+	.exhibit-main-container .exhibit-main-video {
+		margin-bottom: 0;
+	}
+
 	/* Footer */
+
+	footer {
+		border: 0;
+		height: initial;
+		padding-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.footer-content {
+		margin: 0 0 0 16px;
+	}
+
+	footer .terms-privacy {
+		display: none;
+	}
 }
